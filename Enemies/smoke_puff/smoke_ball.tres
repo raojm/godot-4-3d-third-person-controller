@@ -1,3 +1,14 @@
-[gd_resource type="ShaderMaterial" load_steps=4 format=3]
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://diom0yeqyeg1l"]
 
 [ext_resource type="Shader" path="res://Enemies/smoke_puff/smoke_ball.gdshader" id="1_s618o"]
+
+[resource]
+resource_local_to_scene = true
+render_priority = 10
+shader = ExtResource("1_s618o")
+shader_parameter/progress = 0.0
+shader_parameter/smoothness = 0.01
+shader_parameter/ease = 2.0
+shader_parameter/base_scale = 1.0
+shader_parameter/deformation_scale = 1.0
+shader_parameter/texture_offset = 0.0
